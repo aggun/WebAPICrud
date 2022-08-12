@@ -1,12 +1,14 @@
-﻿using System;
+﻿using CoreLayer.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CoreLayer.Services
+namespace CoreLayer.Repositories
 {
-    internal interface IProductRepository
+    public interface IProductRepository : IGenericRepository<Product>
     {
+        Task<List<Product>> GetProductsWitCategory();
     }
 }

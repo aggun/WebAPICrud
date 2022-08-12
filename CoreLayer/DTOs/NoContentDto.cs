@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CoreLayer.DTOs
 {
-    internal class NoContentDto
+    public class NoContentDto
     {
     }
 }

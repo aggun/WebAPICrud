@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CoreLayer.Models
 {
-    internal class Category
+    public class Category: BaseEntity
     {
+        public ICollection<Product> Products { get; set; }
     }
 }

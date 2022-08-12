@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CoreLayer.DTOs
 {
-    internal class CategoryDto
+    public class CategoryDto
     {
+        public string Name { get; set; }
     }
 }

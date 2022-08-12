@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace CoreLayer.DTOs
 {
-    internal class ProductDto
+    public class ProductDto
     {
+        public string Name { get; set; }
+
+        public int Stock { get; set; }
+        public decimal Price { get; set; }
+
+        public int CategoryId { get; set; }
     }
 }

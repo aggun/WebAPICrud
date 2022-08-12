@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace CoreLayer.Models
 {
-    internal class Product
+    public class Product: BaseEntity
     {
+        public int Stock { get; set; }
+        public decimal Price { get; set; }
+
+        public int CategoryId { get; set; }
+
+        public Category Category { get; set; }
     }
 }

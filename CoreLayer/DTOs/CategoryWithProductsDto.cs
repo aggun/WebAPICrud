@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CoreLayer.DTOs
 {
-    internal class CategoryWithProductsDto
+    public class CategoryWithProductsDto : CategoryDto
     {
+        public List<ProductDto> Products { get; set; }
     }
 }

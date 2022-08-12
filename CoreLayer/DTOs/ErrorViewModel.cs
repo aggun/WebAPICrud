@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CoreLayer.DTOs
 {
-    internal class ErrorViewModel
+    public class ErrorViewModel
     {
+        public List<string> Errors { get; set; } = new List<string>();
     }
 }

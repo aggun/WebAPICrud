@@ -10,6 +10,5 @@ namespace CoreLayer.UnitOfWork
     {
         Task CommitAsync();
         void Commit();
-
     }
 }
