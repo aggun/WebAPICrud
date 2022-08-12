@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceLayer", "ServiceLaye
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CachingLayer", "CachingLayer\CachingLayer.csproj", "{6F2428A2-200B-4ED5-B63E-4B8B86E5C3D8}"
 EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "WebLayer", "WebLayer\WebLayer.esproj", "{30D3C39D-9320-4E57-810D-5965C51C21B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,12 @@ Global
 		{6F2428A2-200B-4ED5-B63E-4B8B86E5C3D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F2428A2-200B-4ED5-B63E-4B8B86E5C3D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F2428A2-200B-4ED5-B63E-4B8B86E5C3D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30D3C39D-9320-4E57-810D-5965C51C21B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30D3C39D-9320-4E57-810D-5965C51C21B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30D3C39D-9320-4E57-810D-5965C51C21B7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{30D3C39D-9320-4E57-810D-5965C51C21B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30D3C39D-9320-4E57-810D-5965C51C21B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30D3C39D-9320-4E57-810D-5965C51C21B7}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
